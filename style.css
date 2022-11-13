@@ -702,6 +702,7 @@ footer .copyrights p {
     }
     #hero {
         padding: 0 20px;
+        height: 90vh;
         background-position: 55%;
     }
     #features {
