@@ -721,7 +721,12 @@ footer .copyrights p {
         height: 40vh;
     }
 
+    #sm-banner{
+        padding: 10px 20px;
+    }
+
     #sm-banner .banner-box {
+        margin: 0;
         height: 40vh;
         width: 100%;
     }
