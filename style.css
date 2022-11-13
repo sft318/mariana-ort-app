@@ -707,10 +707,10 @@ footer .copyrights p {
     #features {
         justify-content: center;
     }
-
     #features .fe-box {
         width: 155px;
-        margin: 0 0 15px 0;
+        padding: 5px;
+        margin: 5px;
     }
     #product1 .pro {
         width: 100%;
