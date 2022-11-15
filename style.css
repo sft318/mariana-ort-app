@@ -157,7 +157,7 @@ button.white {
 
 
 #hero {
-   background-image: url(./img/tembela.jpg);
+   background-image: url('./img/tembela.jpg');
    height: 100vh;
    width: 100%;
    background-size: cover;
@@ -528,10 +528,11 @@ footer .logo h4 {
 
 
 footer h4 {
-    font-size: 14px;
-    padding-bottom: 12px;
-    margin: 10px;
+    font-size: 22px;
+    padding-bottom: 8px;
+    margin: 0 0 8px 0;
 }
+
 footer p {
     font-size: 13px;
     margin: 0 0 8px 0;
@@ -641,7 +642,7 @@ footer .copyrights p {
     }
     
     #hero {
-        height: 70vh;
+        height: 100vh;
         padding: 0 80px;
         background-position: top 30% right 30%;
      }
@@ -701,13 +702,19 @@ footer .copyrights p {
         font-size: 32px;
     }
     #hero {
-        padding: 0 20px;
-        height: 90vh;
-        background-position: 55%;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        padding: 0;
+        display: flex;
+        filter: brightness(80%);
+        background-position: center center;
     }
     #features {
         justify-content: center;
+        padding: 4px;
     }
+
     #features .fe-box {
         width: 155px;
         padding: 5px;
@@ -720,7 +727,7 @@ footer .copyrights p {
     #banner2 {
         height: 40vh;
     }
-
+    
     #sm-banner{
         padding: 10px 20px;
     }
@@ -731,9 +738,9 @@ footer .copyrights p {
         width: 100%;
     }
     #sm-banner .banner-box2 {
-    
         margin-top: 20px;
     }
+
 
     #banner3 {
         padding: 0 20px;
@@ -742,6 +749,8 @@ footer .copyrights p {
     #banner3 .banner-box {
         width: 100%;
     }
+
+
     #newsletter {
         padding: 40px 20px;
     }
